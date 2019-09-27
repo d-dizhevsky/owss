@@ -12,7 +12,7 @@ namespace OpenWebSecurityScanner
     {
         static async Task Main(string[] args)
         {
-            var path = "./testProjects/WebAPI1/WebAPI1.csproj";
+            var path = "../../testProjects/WebAPI1/WebAPI1.csproj";
 
             var instainces = MSBuildLocator.QueryVisualStudioInstances();
             foreach (var instance in instainces)
